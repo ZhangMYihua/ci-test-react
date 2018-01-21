@@ -15,7 +15,7 @@ jobs:
     steps:
       - checkout
 
-      run: pip install awscli --upgrade --user
+      - run: pip install awscli --upgrade --user
 
       # Download and cache dependencies
       - restore_cache:
